@@ -31,10 +31,8 @@ int main () {
 
         imprime_palavra(palavra_secreta, chutou);
 
-        // Ao passar as variaveis, é criado uma cópia e ela sera modificada
-        // para passar a varavel real, na memoria ja alocada, é necessario 
-        // passar com um ponteiro, representado por '&'
-        chuta(&chutou, &chutes_errados);
+
+        chuta(chutou, chutes_errados);
     }
 
     cout << "Fim de jogo!" << endl;
