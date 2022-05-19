@@ -1,3 +1,5 @@
 #include <vector>
 
-void imprime_erros(const std::vector<char>& CHUTES_ERRADOS);
+namespace Forca {
+    void imprime_erros(const std::vector<char>& chutes_errados);
+}
